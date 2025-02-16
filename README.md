@@ -33,3 +33,13 @@ In this exercise, we will explore **Wide Residual Networks** (WRNs), which are a
 
 The trade-off between **width** and **depth** in neural networks is an ongoing debate in machine learning research. It has been observed that deeper networks require exponentially more parameters to achieve the same performance as their wider counterparts. Wide Residual Networks, as shown in the paper ["Wide Residual Networks"](https://arxiv.org/abs/1605.07146), demonstrate that increasing the width of ResNets, when done correctly, can lead to better performance and faster training times.
 
+# Deep Learning Lab Exercise 2: Fine-Tuning a Pretrained NLP Model for Text Classification
+
+This Jupyter Notebook is part of a lab project that demonstrates how to fine-tune a pretrained language model for text classification using the Hugging Face transformers library. The project is based on the Yelp Polarity dataset.
+## I. Project Overview
+
+The notebook covers:
+* Loading and exploring the Yelp Polarity dataset
+* Fine-tuning a pretrained model (e.g., roberta-large-mnli)
+* Using Hugging Face's pipeline API for text classification
+* Training on a small subset of the dataset for efficiency
